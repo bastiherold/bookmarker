@@ -4,35 +4,35 @@ A Bookmark organizer written in nodejs.
 
 ### TODO
 
-* [] Setup Server
+* [x] Setup Server
   * [x] Install Dependencies
   * [x] Install / Setup Linter
   * [x] Setup Express App
   * [x] Setup Not Found and Error Middlewares
-* [x] Model DB
+* [o] Model DB
   * [x] Bookmark
-  * [] Bookmark Folder
-  * [] Tags
-* [x] Setup Mongoose Model(s)
+  * [o] Bookmark Folder
+  * [o] Tags
+* [o] Setup Mongoose Model(s)
   * [x] Bookmark
-  * [] Bookmark Folder
-  * [] Tags
-* [x] GET /routes
+  * [o] Bookmark Folder
+  * [o] Tags
+* [o] GET /routes
   * [x] Bookmark
-  * [] Bookmark Folder
-  * [] Tags
-* [x] POST /routes
+  * [o] Bookmark Folder
+  * [o] Tags
+* [o] POST /routes
   * [x] Bookmark
-  * [] Bookmark Folder
-  * [] Tags
-* [] PATCH /routes
-  * [] Bookmark
-  * [] Bookmark Folder
-  * [] Tags
-* [] DELETE /routes
-  * [] Bookmark
-  * [] Bookmark Folder
-  * [] Tags
-* [] Setup Client
-* [] Create Forms to add a new entries
-* [] DEPLOY!
+  * [o] Bookmark Folder
+  * [o] Tags
+* [o] PATCH /routes
+  * [o] Bookmark
+  * [o] Bookmark Folder
+  * [o] Tags
+* [o] DELETE /routes
+  * [o] Bookmark
+  * [o] Bookmark Folder
+  * [o] Tags
+* [o] Setup Client
+* [o] Create Forms to add a new entries
+* [o] DEPLOY!
