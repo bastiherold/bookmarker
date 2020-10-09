@@ -20,15 +20,16 @@ const requiredFields = {
     type: String,
     required: true,
   },
+  url: {
+    type: String,
+    required: true,
+  },
 };
 
 const bookmarkSchema = new Schema({
   title: { ...requiredFields.title },
   comment: String,
-  url: {
-    type: String,
-    required: true,
-  },
+  url: { ...requiredFields.url },
   deleted_at: Date,
 }, {
   timestamps: {
